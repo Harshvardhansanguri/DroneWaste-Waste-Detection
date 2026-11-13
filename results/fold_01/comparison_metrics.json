@@ -1,0 +1,25 @@
+{
+  "evaluation_scope": "Fold 1 only; held-out test site site1",
+  "test_images": 119,
+  "annotated_instances": 75,
+  "background_images": 84,
+  "models": {
+    "YOLOv12 Nano": {
+      "parameters_approx": 2580000,
+      "precision": 0.6121153504074311,
+      "recall": 0.3018508106686925,
+      "mAP50": 0.336904210863758,
+      "mAP50_95": 0.22571977886685113,
+      "inference_ms": 12.3
+    },
+    "YOLOv12 Small": {
+      "parameters_approx": 9240000,
+      "precision": 0.353923017708525,
+      "recall": 0.296447552729331,
+      "mAP50": 0.3043020668128949,
+      "mAP50_95": 0.21790818571188267,
+      "inference_ms": 18.5
+    }
+  },
+  "cross_validation_status": "17 fold manifests generated; only Fold 1 trained and evaluated"
+}

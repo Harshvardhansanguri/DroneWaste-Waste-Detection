@@ -1,0 +1,32 @@
+# Python and notebook cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Dataset files / generated data
+/data/
+/dataset/
+/datasets/
+/images/
+/labels/
+*.tar
+*.tar.gz
+
+# Training outputs and checkpoints
+/runs/
+/results/**/weights/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.pth
+
+# Local credentials and OS files
+.env
+.env.*
+*.pem
+*.key
+.DS_Store
